@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Car Name -->
+    <EditText
+        android:id="@+id/editTextCarName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_car_name"
+        android:layout_margin="16dp"/>
+
+    <!-- Model -->
+    <EditText
+        android:id="@+id/editTextModel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_model"
+        android:layout_below="@id/editTextCarName"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Engine -->
+    <EditText
+        android:id="@+id/editTextEngine"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_engine"
+        android:layout_below="@id/editTextModel"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Wheels -->
+    <EditText
+        android:id="@+id/editTextWheels"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_wheels"
+        android:layout_below="@id/editTextEngine"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add"
+        android:layout_below="@id/editTextWheels"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextWheels"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="-205dp"
+        android:layout_toStartOf="@id/buttonAdd"
+        android:text="@string/button_cancel" />
+</RelativeLayout>

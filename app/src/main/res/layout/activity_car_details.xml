@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Replace RecyclerView with ListView -->
+    <ListView
+        android:id="@+id/listViewCarModels"
+        android:layout_width="match_parent"
+        android:layout_height="539dp"
+        android:layout_above="@+id/buttonGoBack"
+        android:layout_marginTop="16dp"
+        tools:listitem="@layout/item_car_model" />
+
+    <Button
+        android:id="@+id/buttonGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_go_back"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+</RelativeLayout>
+

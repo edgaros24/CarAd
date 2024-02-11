@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851593452536",
+    "project_id": "caradproject",
+    "storage_bucket": "caradproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851593452536:android:7d495d1707627014bd540d",
+        "android_client_info": {
+          "package_name": "lt.viko.eif.ejurkoit.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeF_QDN1Jx2PU_LaOjThjfl1TjD8MjvlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

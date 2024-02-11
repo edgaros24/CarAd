@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_car_name">Automobilio pavadinimas</string>
+    <string name="hint_model">Modelis</string>
+    <string name="hint_engine">Variklis</string>
+    <string name="hint_wheels">Ratai</string>
+    <string name="button_add">Pridėti</string>
+    <string name="button_cancel">Atšaukti</string>
+    <string name="button_go_back">Grįžti atgal</string>
+    <string name="label_car_names">Automobilių pavadinimai:</string>
+    <string name="button_add_car">Pridėti automobilį</string>
+    <string name="button_sign_out">Atsijungti</string>
+    <string name="hint_email">El. paštas</string>
+    <string name="hint_password">Slaptažodis</string>
+    <string name="button_sign_in">Prisijungti</string>
+    <string name="button_sign_up">Užsiregistruoti</string>
+    <string name="button_back_to_sign_in">Atgal į prisijungimą</string>
+    <string name="label_car_model">Automobilio modelis</string>
+    <string name="button_update">Atnaujinti</string>
+    <string name="button_delete">Ištrinti</string>
+    <string name="message_sign_up_success">Prisijungta Sėkmingai</string>
+    <string name="message_sign_up_empty">Email ir slaptažodis negali būti tuščias </string>
+    <string name="sign_up_failed">Registravimas Nesėkmingas</string>
+    <string name="toast_sign_In_succ">Prisijungimas yra sėkmingas</string>
+    <string name="Fill_In">Prašome užpildyti visus langus</string>
+    <string name="Update_Succ">Sėkmingai atnaujinta</string>
+    <string name="Add_Succ">Automobilis sėkmingai pridėtas</string>
+    <string name="Fill_Fields">Užpildykite visus langus</string>
+    <string name="Error_Fill">Nepavyko pridėti automobilį</string>
+
+</resources>

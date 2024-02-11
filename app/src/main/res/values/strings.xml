@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">CarAd</string>
+    <string name="hint_car_name">Car Name</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_engine">Engine</string>
+    <string name="hint_wheels">Wheels</string>
+    <string name="button_add">Add</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_go_back">Go Back</string>
+    <string name="label_car_names">Car Names:</string>
+    <string name="button_add_car">Add Car</string>
+    <string name="button_sign_out">Sign Out</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="button_back_to_sign_in">Back to Sign In</string>
+    <string name="label_car_model">Car Model</string>
+    <string name="button_update">Update</string>
+    <string name="button_delete">Delete</string>
+    <string name="message_sign_up_success">Sign Up Successful</string>
+    <string name="message_sign_up_empty">Email and password are empty </string>
+    <string name="sign_up_failed">Sign Up Failed</string>
+    <string name="toast_sign_In_succ">Sign In Successful</string>
+    <string name="Fill_In">Please fill the email and password</string>
+    <string name="Update_Succ">Update Success</string>
+    <string name="Add_Succ">Car Added Successfully</string>
+    <string name="Fill_Fields">Please fill in all the fields</string>
+    <string name="Error_Fill">Error adding a car</string>
+</resources>
